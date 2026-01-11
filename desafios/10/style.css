@@ -11,7 +11,15 @@ header {
   height: 250px;
 }
 
+main{
+  background-color: #84e1ad;
+  width: auto;
+  height: 1200px;
+}
+
+/* header */
 #titulo {
+  text-shadow: 2px 2px 4px black;
   padding-top: 25px;
   font-weight: 400;
   font-family: 'Oswald';
@@ -21,6 +29,7 @@ header {
 }
 
 #subtitulo {
+  text-shadow: 2px 2px 4px black;
   padding-top: 30px;
   font-weight: 300;
   font-family: Arial, Helvetica, sans-serif;
@@ -42,4 +51,27 @@ header {
   padding-top: 50px;
   margin-top: 30;
   margin-left: 30px;
+}
+
+/* main */
+
+#folha {
+  align-self: center;
+  background-color: white;
+  width: 70vw; /* largura */
+  height: 1200px; /* altura */
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+#versao {
+  font-family: 'Bruno Ace';
+  color: #1f603c;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#texto {
+  font-family: Arial, Helvetica, sans-serif;
 }
