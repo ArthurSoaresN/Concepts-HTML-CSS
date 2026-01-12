@@ -9,6 +9,9 @@ header {
   background-image: linear-gradient(to bottom, #3dda84, #1a5c38);
   width: auto;
   height: 250px;
+  box-shadow: 0px 1px 20px 1px black;
+  position: relative;
+  z-index: 10;
 }
 
 main{
@@ -62,6 +65,7 @@ main{
   height: 1200px; /* altura */
   margin-left: 15vw;
   margin-right: 15vw;
+  box-shadow: 1px 10px 15px 5px black;
 }
 
 #versao {
@@ -72,6 +76,26 @@ main{
   padding-bottom: 20px;
 }
 
+#versao2 {
+  text-indent: 5px;
+  font-family: 'Bruno Ace';
+  color: #1f603c;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to right, #c5ebd5, white);
+  background-clip: content-box;
+}
+
 #texto {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-indent: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+
+#referencia {
+  color: green;
+  text-decoration: none;
 }
