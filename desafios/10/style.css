@@ -59,6 +59,16 @@ main{
   padding-top: 50px;
   margin-top: 30;
   margin-left: 30px;
+  transition-duration: 0.5s;
+}
+
+nav > a {
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+nav > a:hover {
+  background-color: #84e1ad;
 }
 
 /* main */
