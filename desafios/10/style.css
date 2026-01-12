@@ -17,7 +17,7 @@ header {
 main{
   background-color: #84e1ad;
   width: auto;
-  height: 3030px;
+  height: auto;
 }
 
 /* header */
@@ -78,7 +78,7 @@ img {
   align-self: center;
   background-color: white;
   width: 60vw; /* largura */
-  height: 3000px; /* altura */
+  height: auto; /* altura */
   margin-left: 20vw;
   margin-right: 20vw;
   box-shadow: 1px 10px 15px 5px black;
@@ -116,7 +116,7 @@ img {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14pt;
   text-indent: 30px;
-  padding-top: 30px;
+  padding-top: 25px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -136,9 +136,6 @@ img {
     color: white;
     text-align: justify;
     background-color: #2fa866;
-    margin-top: 15px;
-    margin-left: 30px;
-    margin-right: 30px;
     padding-top: 15px;
     padding-bottom: 5px;
     text-indent: 15px;
@@ -146,11 +143,15 @@ img {
 }
 
 #caixa{
-  height: 400px;
+  height: 450px;
   width: auto;
   background-color: #c5ebd6;
+  margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 4px 4px 20px 0px black;
 }
 
 #lista {
