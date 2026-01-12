@@ -112,6 +112,15 @@ img {
   padding-bottom: 30px;
 }
 
+#textocaixa {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+  text-indent: 30px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #referencia {
   color: #2c744d;
   text-decoration: none;
@@ -142,4 +151,32 @@ img {
   background-color: #c5ebd6;
   margin-left: 30px;
   margin-right: 30px;
+}
+
+#lista {
+  height: 140px;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+}
+
+li {
+  height: 20px;
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li::before {
+  content: "\2714"; /* Código para ✔ */
+  color: #000000;
+  margin-right: 5px;
 }
