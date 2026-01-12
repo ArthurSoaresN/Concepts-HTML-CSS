@@ -6,6 +6,7 @@
 }
 
 header {
+  min-width: 700px;
   background-image: linear-gradient(to bottom, #3dda84, #1a5c38);
   width: auto;
   height: 250px;
@@ -154,7 +155,8 @@ img {
 
 #caixa{
   height: 450px;
-  max-height: auto;
+  min-height: 450px;
+  min-width: 700px;
   width: auto;
   background-color: #c5ebd6;
   margin-top: 30px;
