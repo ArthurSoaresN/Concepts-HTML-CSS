@@ -29,11 +29,15 @@ header > h1 {
     font-variant: small-caps;
 }
 
-header > p > a {
+a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte1);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header > p {
