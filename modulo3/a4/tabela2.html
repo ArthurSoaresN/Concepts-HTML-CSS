@@ -13,6 +13,7 @@
 
         table {
             width: 500px;
+            position: relative;
         }
 
         td, th {
@@ -27,6 +28,12 @@
 
         tbody > tr:nth-child(even) {
             background-color: lightgray;
+        }
+
+        thead > tr > th { /* Efeito de Cabelaçho fixo */
+            position: sticky;
+            top: -1;
+            background-color: grey;
         }
 
         /* Efeito zebrado usando pseudoclasse, even para linhas pares e odd para linhas impares
