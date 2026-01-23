@@ -30,3 +30,26 @@ h2 {
 p {
     text-align: justify;
 }
+
+/* 
+/* 1. OPACIDADE
+       Colocamos um gradiente da MESMA cor do seu fundo por cima da imagem.
+       O último número (0.8) é a "força" da cor. 
+       0.9 = imagem bem apagada. 
+       0.1 = imagem bem visível.
+    background-image: 
+        linear-gradient(rgba(255, 255, 0, 0.8), rgba(255, 255, 0, 0.8)),
+        url(imagens/JSw.png);
+    /* 2. REPETIÇÃO VERTICAL:
+       repeat-x = Repete só na horizontal (cria uma faixa).
+       repeat = Repete em tudo (padrão).
+       no-repeat = Apenas uma imagem.
+    background-repeat: repeat-x; 
+    /* 3. TAMANHO (Opcional, mas ajuda no controle):
+       Define o tamanho de CADA logo "JS". 
+       Aumente ou diminua os pixels para caber mais ou menos repetições. 
+    background-size: 50px auto; 
+    /* 4. POSIÇÃO:
+       Onde a faixa de logos vai ficar? (center, top, bottom)
+    background-position: center;
+*/
